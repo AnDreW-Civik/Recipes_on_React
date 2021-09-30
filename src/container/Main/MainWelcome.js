@@ -23,7 +23,7 @@ const MainWelcome = () => {
                                     <a href="/">
                                         About us
                                         <span className="welcome-arrow">
-                                            &gt;{' '}
+                                            &gt;
                                         </span>
                                     </a>
                                 </div>

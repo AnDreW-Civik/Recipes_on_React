@@ -1,10 +1,14 @@
 import React from 'react'
 import MainWelcome from './MainWelcome'
+import ProductsList from '../Products/Productslist'
 
 const Main = () => {
     return (
         <>
-            <MainWelcome />
+            <main>
+                <MainWelcome />
+                <ProductsList />
+            </main>
         </>
     )
 }
