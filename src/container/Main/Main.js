@@ -1,6 +1,7 @@
 import React from 'react'
 import MainWelcome from './MainWelcome'
 import ProductsList from '../Products/Productslist'
+import MainOtherRecipes from './MainOtherRecipes'
 
 const Main = () => {
     return (
@@ -8,6 +9,7 @@ const Main = () => {
             <main>
                 <MainWelcome />
                 <ProductsList />
+                <MainOtherRecipes />
             </main>
         </>
     )

@@ -1,19 +1,13 @@
 import React from 'react'
-import Spaghetti from '../images/Spaghetti.jpg'
-import Oriental from '../images/Oriental.jpg'
-import Rice from '../images/Rice.jpg'
-import Salad from '../images/Salad.jpg'
-import Seafood from '../images/Seafood.jpg'
-import Toast from '../images/Toast.jpg'
 import Heart from '../images/heart.png'
 
-const ProductListItem = ({ category, name, description }) => {
+const ProductListItem = ({ category, name, description, image }) => {
     return (
         <>
             <div className="col-md-4 col-xs-12 col-sm-6">
                 <div className="whats-img scale">
                     <a href="/">
-                        <img src={Spaghetti} alt="" className="img" />
+                        <img src={image} alt="" className="img" />
                     </a>
                     <p className="whats-new-author">
                         <span className="category">Category:</span>

@@ -22,11 +22,13 @@ const ProductsList = () => {
                     </div>
                     <div className="whats-new-img">
                         {productsArray.map(
-                            ({ category, name, description }) => (
+                            ({ id, category, name, description, image }) => (
                                 <ProductListItem
+                                    key={id}
                                     category={category}
                                     name={name}
                                     description={description}
+                                    image={image}
                                 />
                             )
                         )}
