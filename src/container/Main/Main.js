@@ -4,6 +4,7 @@ import ProductsList from '../Products/Productslist'
 import MainOtherRecipes from './MainOtherRecipes'
 import MainAboutUs from './MainAboutUs'
 import MainCarousel from './MainCarousel'
+import MainContacts from './MainContacts'
 
 const Main = () => {
     return (
@@ -14,6 +15,7 @@ const Main = () => {
                 <MainOtherRecipes />
                 <MainAboutUs />
                 <MainCarousel />
+                <MainContacts />
             </main>
         </>
     )

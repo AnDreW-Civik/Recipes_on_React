@@ -1,5 +1,6 @@
 import React from 'react'
 import Heart from '../images/heart.png'
+import PropTypes from 'prop-types'
 
 const ProductListItem = ({ category, name, description, image }) => {
     return (
@@ -34,6 +35,18 @@ const ProductListItem = ({ category, name, description, image }) => {
             </div>
         </>
     )
+}
+
+ProductListItem.propTypes = {
+    category: PropTypes.string.isRequired,
+    name: PropTypes.string.isRequired,
+    description: PropTypes.string,
+    image: PropTypes.string.isRequired,
+}
+
+ProductListItem.defaultProps = {
+    description: 'No description...',
+    image: 'images/noimage.jpg',
 }
 
 export default ProductListItem

@@ -77,7 +77,7 @@ class MainCarouseleclass extends Component {
                         elit. A corporis quibusdam tempora sit fugit vel ratione
                         animi sint officiis, nulla corrupti.
                     </h3>
-                    className
+
                     <div className="dots">
                         <span className="dots-green">.</span>
                         <span className="dots-green">.</span>
