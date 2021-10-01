@@ -8,7 +8,7 @@ const MainOtherRecipes = () => {
                 <div className="container">
                     <div className="row">
                         <div className="col-xs-12 col-md-12 col-sm-12">
-                            <div class="other-recipes-main-img">
+                            <div className="other-recipes-main-img">
                                 <img
                                     src={homeRecipes}
                                     alt=""
@@ -25,7 +25,7 @@ const MainOtherRecipes = () => {
                                 <div className="welcome-btn green pos">
                                     <a href="/">
                                         Show all
-                                        <span class="welcome-arrow arrow">
+                                        <span className="welcome-arrow arrow">
                                             &gt;
                                         </span>
                                     </a>
